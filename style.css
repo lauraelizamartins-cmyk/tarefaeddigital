@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: antiquewhite;
-    color: antiquewhite;
+    color: rgb(18, 71, 18);
     text-align: center;
     padding: 30px;
 }
@@ -23,11 +23,10 @@ p {
     line-height: 1.6;
 }
 nav{
-margin-top: 20px;
 }
 
  nav a {
-    color: white;
+    color: rgb(8, 7, 7);
     text-decoration: none;
     background-color: aliceblue;
     padding: 10px 15px;
@@ -56,18 +55,18 @@ margin-top: 20px;
     width: 100;
     max-width: 600px;
     display: block;
-    margin: auto;
+    margin: auto;Explora Paraná nasce com o propósito 
     border-radius: 10px;
    }
 
    figcaption {
     text-align: center;
     font-size: 14px;
-    color: antiquewhite;
+    color: rgb(2, 2, 2);
     margin-top: 8px;
    }
 
-   card {
+   .card {
     background-color: aliceblue;
     padding: 15px;
     margin: 15px;
@@ -76,10 +75,10 @@ margin-top: 20px;
 
    }
 
-   card h3 {
+   .card h3 {
     margin-top: 0;
    }
-   
+
     footer {
         background-color: aliceblue;
         color: aliceblue;

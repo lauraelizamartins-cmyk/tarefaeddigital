@@ -16,7 +16,7 @@ h1{
     font-size: 36px;
 }
 h2 {
-    color: rgb(7, 8, 7);
+    color: rgb(42, 104, 42);
 }
 p {
     font-size: 18px;
@@ -29,7 +29,7 @@ nav{
  nav a {
     color: rgb(42, 83, 38);
     text-decoration: none;
-    background-color: rgb(60, 143, 216);
+    background-color: rgb(221, 226, 230);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -82,7 +82,7 @@ nav{
 
     footer {
         background-color: aliceblue;
-        color: black;
+        color: rgb(61, 102, 48);
         text-align: center;
         padding: 20px;
         margin-top: 30px;

@@ -16,7 +16,7 @@ h1{
     font-size: 36px;
 }
 h2 {
-    color: rgb(14, 99, 35);
+    color: rgb(7, 8, 7);
 }
 p {
     font-size: 18px;
@@ -27,7 +27,7 @@ nav{
 }
 
  nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(42, 83, 38);
     text-decoration: none;
     background-color: aliceblue;
     padding: 10px 15px;
@@ -53,11 +53,11 @@ nav{
  }
    
  img {
-    width: 100;
+    width: 100%;
     max-width: 600px;
     display: block;
     margin: auto;
-    border-radius: 10px;
+    
    }
 
    figcaption {

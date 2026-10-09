@@ -1,25 +1,25 @@
 :root{
-    --cor-fundo:
-    --cor-texto:
-    --cor-principal:
-    --cor-secundaria:
-    --cor-hover:
-    --cor-superficie:
-    --cor-card:
-    --cor-legenda:
-    --cor-clara:
-    --cor-rodape:
+    --cor-fundo: antiquewhite;
+    --cor-texto: rgb(14, 99, 35);
+    --cor-principal:rgb(18, 71, 18); 
+    --cor-secundaria: rgb(42, 104, 42);
+    --cor-hover:aliceblue;
+    --cor-superficie: white;
+    --cor-card: aliceblue;;
+    --cor-legenda:  rgb(0, 0, 0);
+    --cor-clara:  rgb(42, 104, 42);
+    --cor-rodape: white;
 }
 body {
-    background-color: antiquewhite;
-    color: rgb(14, 99, 35);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: antiquewhite;
-    color: rgb(18, 71, 18);
+    background-color: var(--cor-principal);
+    color: var(var(--cor-secundaria));
     text-align: center;
     padding: 30px;
 }
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(42, 104, 42);
+    color: var(--cor-principal);
 }
 
 p {
@@ -42,9 +42,9 @@ nav {
 }
 
 nav a {
-    color: rgb(42, 83, 38);
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: rgb(221, 226, 230);
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color:var(--cor-hover); 
 }
 
 main {
@@ -61,7 +61,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -78,15 +78,15 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: rgb(2, 2, 2);
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: aliceblue;
+    background-color: var(--cor-card);
     padding: 15px;
-    margin: 15px;
-    border-left: 6px solid #e4cfdf;
+    margin: 15px 0;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
 
 }
@@ -96,7 +96,7 @@ figcaption {
 }
 
 footer {
-    background-color: aliceblue;
+    background-color: var(--cor-rodape);
     color: rgb(61, 102, 48);
     text-align: center;
     padding: 20px;
@@ -105,8 +105,8 @@ footer {
 }
 
 button {
-    background-color: rgb(172, 231, 160);
-    color: azure;
+    background-color: var(--cor-principal);
+    color: var(var(--cor-clara));
     border: none;
     padding: 10px 15px;
     border-radius: 8px;

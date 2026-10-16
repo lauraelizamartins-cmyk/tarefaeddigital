@@ -1,10 +1,10 @@
 :root{
     --cor-fundo: antiquewhite;
-    --cor-texto: rgb(34, 65, 41);
+    --cor-texto: rgb(124, 221, 147);
     --cor-principal:rgb(124, 202, 124); 
     --cor-secundaria: rgb(30, 90, 30);
     --cor-hover:rgb(250, 252, 253);
-    --cor-superficie: rgb(248, 247, 200);
+    --cor-superficie: rgb(255, 254, 254);
     --cor-card: aliceblue;;
     --cor-legenda:  rgb(253, 255, 219);
     --cor-clara:  rgb(57, 114, 57);

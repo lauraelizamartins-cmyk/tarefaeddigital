@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: var(--cor-principal);
-    color: var(var(--cor-secundaria));
+    color: var (--cor-secundaria);
     text-align: center;
     padding: 30px;
 }

@@ -3,11 +3,11 @@
     --cor-texto: rgb(26, 63, 34);
     --cor-principal:rgb(60, 121, 60); 
     --cor-secundaria: rgb(160, 216, 160);
-    --cor-hover:rgb(0, 1, 2);
-    --cor-superficie: white;
+    --cor-hover:rgb(250, 252, 253);
+    --cor-superficie: rgb(5, 5, 5);
     --cor-card: aliceblue;;
     --cor-legenda:  rgb(0, 0, 0);
-    --cor-clara:  rgb(42, 104, 42);
+    --cor-clara:  rgb(131, 185, 131);
     --cor-rodape: white;
 }
 body {

@@ -1,8 +1,8 @@
 :root{
     --cor-fundo: antiquewhite;
-    --cor-texto: rgb(35, 136, 60);
+    --cor-texto: rgb(236, 236, 236);
     --cor-principal:rgb(60, 121, 60); 
-    --cor-secundaria: rgb(42, 104, 42);
+    --cor-secundaria: rgb(160, 216, 160);
     --cor-hover:aliceblue;
     --cor-superficie: white;
     --cor-card: aliceblue;;

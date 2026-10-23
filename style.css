@@ -1,7 +1,7 @@
 :root{
     --cor-fundo: antiquewhite;
-    --cor-texto: rgb(124, 221, 147);
-    --cor-principal:rgb(40, 66, 40); 
+    --cor-texto: rgb(46, 77, 53);
+    --cor-principal:rgb(83, 124, 83); 
     --cor-secundaria: rgb(19, 90, 19);
     --cor-hover:rgb(250, 252, 253);
     --cor-superficie: rgb(255, 254, 254);

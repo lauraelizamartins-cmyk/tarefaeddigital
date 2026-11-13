@@ -10,6 +10,10 @@
     --cor-clara:  rgb(57, 114, 57);
     --cor-rodape: white;
 }
+
+
+
+
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -19,7 +23,7 @@ body {
 
 header {
     background-color: var(--cor-principal);
-    color: var (--cor-secundaria);
+    color: var(--cor-secundaria);
     text-align: center;
     padding: 30px;
 }
@@ -107,7 +111,7 @@ footer {
 
 button {
     background-color: var(--cor-principal);
-    color: var(var(--cor-clara));
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
